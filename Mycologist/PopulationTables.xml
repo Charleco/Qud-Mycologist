@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<populations>
+
+	<population Name="Mycologist_StartingGear">
+		<group Name="Items" Style="pickeach">
+			<table Name="StartingGear_Common"/>
+			<object Blueprint="FullWaterskin" Number="2" />
+			<object Blueprint="EmptyWaterskin" Number="2" />
+			<object Blueprint="Goggles" Number="1" />
+			<object Blueprint="Cloth Robe" Number="1" />
+			<object Blueprint="Leather Moccasins" Number="1" />
+			<object Blueprint="Witchwood Bark" Number="3-4" />
+			<object Blueprint="Walking Stick" Number="1" />
+			<object Blueprint="Torch" Number="9-15" />
+		</group>
+	</population>
+</populations>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<subtypes>
+    <class ID="Callings" Load="Merge">
+		<subtype Name="Mycologist" Gear="Mycologist_StartingGear" Tile="Creatures/mycologist.png" DetailColor="m">
+			<stat Name="Toughness" Bonus="1"/>
+			<stat Name="Strength" Bonus="3"/>
+			<skills>
+                <skill Name="Endurance_PoisonTolerance" />
+                <skill Name="Cudgel" />
+				<skill Name="Cudgel_Bludgeon" />
+			</skills>
+			<reputations>
+			</reputations>
+            <extrainfo>Starts with multiple fully grown {{W|infections}}</extrainfo>
+		</subtype>
+	</class>
+</subtypes>
