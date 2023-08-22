@@ -7,7 +7,7 @@ public class FungiPlayerMutator : IPlayerMutator
 {
     public void mutate(GameObject player)
     {
-        if((player.GetSubtype()).Equals("Mycologist"))
+        if(player.GetSubtype()).Equals("Mycologist")
         {
         FungalSporeInfection.ApplyFungalInfection(player, "WaxInfection");
         FungalSporeInfection.ApplyFungalInfection(player, "LuminousInfection");
